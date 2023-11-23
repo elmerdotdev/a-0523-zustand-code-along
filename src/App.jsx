@@ -1,13 +1,10 @@
-import { useCounterStore } from "./components/Counter/counterStore"
-
+import User from "./components/User/User"
 import Counter from "./components/Counter/Counter"
 
 const App = () => {
-  const counter = useCounterStore()
-
   return (
     <div>
-      <h1>{counter.name}</h1>
+      <User />
       <Counter />
     </div>
   )
